@@ -1,1 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0a8ea0;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  height: 50px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('images/clinic.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0a8ea0;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+main {
+  padding: 40px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  background: #0a8ea0;
+  color: white;
+  padding: 15px;
+}
